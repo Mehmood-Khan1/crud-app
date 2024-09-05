@@ -25,8 +25,6 @@ router.post('/add', upload.single('image'), addProduct);
 router.get('/product/:id', showProductDetail);
 
 //update product route
-// router.put('/:id/edit', upload.single('image'), updateProduct);
-
 router.put('/:id/edit', upload.single('image'), updateProduct);
 
 //delete route
